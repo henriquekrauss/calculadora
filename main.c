@@ -3,15 +3,14 @@
 #include "calculadora.c"
 
 double * getNumbers() {
-    char num1[6], num2[6];
+    double num1, num2;
     static double bothNumbers[2];
     printf("Enter the first number: ");
-    scanf("%s", num1);
+    scanf("%lf", &num1);
     printf("Enter the second number: ");
-    scanf("%s", num2);
-
-    bothNumbers[0] = atof(num1);
-    bothNumbers[1] = atof(num2);
+    scanf("%lf", &num2);
+    bothNumbers[0] = num1;
+    bothNumbers[1] = num2;
 
     return bothNumbers;
 }
