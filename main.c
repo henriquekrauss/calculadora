@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Calculadora.c"
+#include "calculadora.c"
 
 int * getNumbers() {
     char num1[6], num2[6];
