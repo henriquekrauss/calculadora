@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-extern int add (int num1, int num2) {
+extern double add (double num1, double num2) {
     return num1 + num2;
 }
 
-extern int subtract (int num1, int num2) {
+extern double subtract (double num1, double num2) {
     return num1 - num2;
 }
 
-extern int multiply (int num1, int num2) {
+extern double multiply (double num1, double num2) {
     return num1 * num2;
 }
 
-extern int divide (int num1, int num2) {
+extern double divide (double num1, double num2) {
     return num1 / num2;
 }
